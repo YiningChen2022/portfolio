@@ -9,7 +9,7 @@
   min-width: 100px !important;
   outline: none !important;
 }
-.btn_icon_container {
+.custom_btn .btn_icon_container {
   color: #000 !important;
   background: #fff !important;
   border-radius: 50px !important;
