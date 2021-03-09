@@ -3,15 +3,14 @@
 }
 
 /*Header*/
-
 /*Header title*/
-.timeline. timeline_header {
+.timeline .timeline_header {
   padding-top: 7px;
 }
-.timeline.timeline.timeline_firstItem {
+.timeline .timeline_firstItem {
   min-height: 80px !important;
 }
-.timeline.MuiTimelineItem-root {
+.timeline .MuiTimelineItem-root {
   min-height: 0px;
 }
 .timeline .MuiTimelineItem-missingOppositeContent:before {

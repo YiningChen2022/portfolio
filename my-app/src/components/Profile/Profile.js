@@ -4,10 +4,12 @@ import "./Profile.css";
 import myImage from "../../assets/images/profile.jpg";
 import TimelineItem from "@material-ui/lab/TimelineItem";
 import TimelineContent from "@material-ui/lab/TimelineContent";
+import CustomButton from "../Button/Button";
 import CustomTimeline, {
   CustomTimelineSeparator,
 } from "../Timeline/CustomTimeline";
 import resumeData from "../../utils/resumeData";
+import GetAppIcon from "@material-ui/icons/GetApp";
 
 const CustomTimelineItem = ({ title, text, link }) => (
   <TimelineItem>
@@ -41,7 +43,7 @@ const Profile = () => {
         <img src={myImage} alt="" />
       </figure>
       <div className="profile_information">
-        <CustomTimeline >
+        <CustomTimeline>
           <CustomTimelineItem
             title="Name"
             text={resumeData.name}
@@ -62,9 +64,9 @@ const Profile = () => {
             ></CustomTimelineItem>
           ))}
         </CustomTimeline>
-
-        <br />
-        <button>my button</button>
+        <div ClassName="button_container">
+          <CustomButton text={"Download Resume"} icon={<GetAppIcon />} />
+        </div>
       </div>
     </div>
   );
