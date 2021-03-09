@@ -8,12 +8,12 @@ export default {
 
   phone: "732 668 0885",
   socials: {
-    linkedin: {
+    Linkedin: {
       link: "http://linkedin.com/in/yiningchen2018",
       text: "View My Linkedin",
       icon: <LinkedInIcon />,
     },
-    github: {
+    Github: {
       link: "https://github.com/YiningChen2022",
       text: "View My GitHub",
       icon: <GitHubIcon />,

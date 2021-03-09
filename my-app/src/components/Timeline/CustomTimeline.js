@@ -8,6 +8,8 @@ import TimelineContent from "@material-ui/lab/TimelineContent";
 import TimelineDot from "@material-ui/lab/TimelineDot";
 import WorkIcon from "@material-ui/icons/Work";
 import "./Timeline.css";
+import PersonOutlineOutlinedIcon from "@material-ui/icons/PersonOutlineOutlined";
+
 const CustomTimeline = ({ title, children, icon }) => {
   return (
     <Timeline className={"timeline"}>
@@ -15,23 +17,19 @@ const CustomTimeline = ({ title, children, icon }) => {
       <TimelineItem className={"timeline_firstItem"}>
         <TimelineSeparator>
           <TimelineDot className={"timeline_dot_header"}>
-            {<WorkIcon />}
+            {<PersonOutlineOutlinedIcon />}
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
           <Typography variant="h6" className="timeline_header">
-            {"title"}
+            {}
           </Typography>
         </TimelineContent>
       </TimelineItem>
       {children}
 
-      {/*remaining Header */}
-      <TimelineItem>
-        <CustomTimelineSeparator />
-        <TimelineContent>Code</TimelineContent>
-      </TimelineItem>
+
     </Timeline>
   );
 };
