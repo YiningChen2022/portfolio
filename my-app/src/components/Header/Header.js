@@ -10,21 +10,24 @@ import {
 } from "react-bootstrap";
 import { Link, NavLink, withRouter } from "react-router-dom";
 import { HomeRounded } from "@material-ui/icons";
+import resumeData from "../../utils/resumeData";
+import CustomButton from "../Button/Button.js";
+import "./Header.css";
 const Header = (props) => {
   //if prop exists
   const pathName = props?.location?.pathName;
 
   return (
-    <Navbar expand="lg" sticky="top" className="Header">
+    <Navbar expand="lg" sticky="top" className="header">
       {/*Home link*/}
-      <Nav.Link as={NavLink} to="/">
+      <Nav.Link as={NavLink} to="/" className="header_navlink">
         <Navbar.Brand className="header_home">
           <HomeRounded />
         </Navbar.Brand>
       </Nav.Link>
       <Navbar.Toggle />
       <Navbar.Collapse>
-        <Nav>
+        <Nav className="header_left">
           {/*Resume Link*/}
           <Nav.Link
             as={NavLink}
@@ -44,8 +47,16 @@ const Header = (props) => {
             Portfolio
           </Nav.Link>
         </Nav>
+        <div className="header_right">
+          {Object.keys(resumeData.socials).map((key) => (
+            <a href={resumeData.socials[key].link} target="_blank">
+              {resumeData.socials[key].icon}
+            </a>
+          ))}
+          <CustomButton text={"Hire Me"} />
+        </div>
       </Navbar.Collapse>
     </Navbar>
   );
 };
-export default Header;
+export default withRouter(Header);

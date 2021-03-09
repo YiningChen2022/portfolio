@@ -1,7 +1,8 @@
 import React from "react";
 import { Button } from "@material-ui/core";
-import './Button.css'
-const CustomButton = ({text, icon}) => {
+import "./Button.css";
+
+const CustomButton = ({ text, icon }) => {
   return (
     <Button
       className="custom_btn"
