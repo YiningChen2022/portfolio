@@ -2,6 +2,7 @@ import React from "react";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LanguageIcon from "@material-ui/icons/Language";
+import myImage from "../assets/images/profile.jpg";
 export default {
   name: "Yining Chen",
   title: "Full Stack Developer",
@@ -93,8 +94,7 @@ export default {
   projects: [
     {
       tag: "React",
-      image:
-        "https://en.wikipedia.org/wiki/Image#/media/File:Image_created_with_a_mobile_phone.png",
+      image: myImage,
       title: "Project 1",
       caption: "caption",
       description: "this is my project description",
