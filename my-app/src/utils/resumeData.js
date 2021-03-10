@@ -2,7 +2,7 @@ import React from "react";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LanguageIcon from "@material-ui/icons/Language";
-import myImage from "../assets/images/profile.jpg";
+import db from "../assets/images/db.png";
 export default {
   name: "Yining Chen",
   title: "Full Stack Developer",
@@ -93,11 +93,12 @@ export default {
   ],
   projects: [
     {
-      tag: "React",
-      image: myImage,
-      title: "Project 1",
-      caption: "caption",
-      description: "this is my project description",
+      tag: "DataBase",
+      image: db,
+      title: "Online Retailing System DataBase",
+      caption: "SQLserver, MySQLWorkBench,MongoDB",
+      description:
+        "Database Purpose: The purpose of this database is to maintain data used for business managers to purchase goods from vendors or ship directly from inventory; track orders’ shipment information; check inventory value and provide customer services. The database will be used by the system’s admins, executive manager, and business managers. ",
     },
     {
       tag: "Java",

@@ -103,7 +103,7 @@ const Portfolio = () => {
         open={projectDialog}
         onClose={() => setProjectDialog(false)}
         className="projectDialog"
-        fullScreen
+        fullWidth
       >
         <DialogTitle onClose={() => setProjectDialog(false)}>
           {projectDialog.title}
