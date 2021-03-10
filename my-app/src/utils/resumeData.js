@@ -89,9 +89,6 @@ export default {
       title: "SOURCE CONTROL",
       destription: ["GitHub", "Git"],
     },
-    {
-      title: "DATA ANALYSIS",
-      destription: ["R", "SAS", "MatLab", "Maple"],
-    },
+  
   ],
 };
