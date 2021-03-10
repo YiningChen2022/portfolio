@@ -10,6 +10,7 @@ import CustomTimeline, {
 } from "../Timeline/CustomTimeline";
 import resumeData from "../../utils/resumeData";
 import GetAppIcon from "@material-ui/icons/GetApp";
+import PersonOutlineOutlinedIcon from "@material-ui/icons/PersonOutlineOutlined";
 
 const CustomTimelineItem = ({ title, text, link }) => (
   <TimelineItem>
@@ -43,7 +44,7 @@ const Profile = () => {
         <img src={myImage} alt="" />
       </figure>
       <div className="profile_information">
-        <CustomTimeline>
+        <CustomTimeline icon={<PersonOutlineOutlinedIcon />}>
           <CustomTimelineItem
             title="Name"
             text={resumeData.name}

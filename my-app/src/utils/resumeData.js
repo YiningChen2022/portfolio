@@ -19,4 +19,31 @@ export default {
       icon: <GitHubIcon />,
     },
   },
+  about:
+    "Creative software developer, a freelance painter with 2+ years of painting and business management experience.\n\n Result- oriented, patient, quick learner, and team player eager to take engineering skills and interpersonal skills into innovative program development.",
+  experiences: [
+    {
+      title: "Data Engineer",
+      date: "05/2019-09/2019",
+      decription:
+        " Redesigned and organized a program using R. Forecasted and analyzed the IBNR reserves for a 10-year record. Simplified the program procedures and optimized the program performance. Reduced the program run time by 90%. Designed and implemented interactive visualizations by processing and analyzing datasets",
+    },
+    {
+      title: "Freelance painter",
+      date: "12/2015-06/2018",
+      decription: "Freelance painting",
+    },
+  ],
+  education: [
+    {
+      title: "Northeastern University",
+      date: "09/2020-present",
+      decription: "Information Systems",
+    },
+    {
+      title: "Rutgers University",
+      date: "01/2017-05/2020",
+      decription: "Dual major in Statistics and Labor studies",
+    },
+  ],
 };

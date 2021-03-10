@@ -6,6 +6,18 @@
 .top_60 {
   margin-top: 60px !important;
 }
+.top_30 {
+  margin-top: 30px !important;
+}
+.p_30 {
+  padding: 30px !important;
+}
+.pn_45 {
+  padding-bottom: 45px !important;
+}
+.mb_30 {
+  margin-bottom: 30px !important;
+}
 
 @media (max-width: 991px) {
   .top_60 {
@@ -25,5 +37,28 @@
   border-radius: 6px;
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
-  margin-bottom:30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+
+.section_title {
+  position: relative;
+  display: inline-block;
+  padding: 0 3px;
+}
+.section_title .section_title_text {
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  margin: 0;
+}
+
+.section_title span {
+  position: absolute;
+  height: 7px;
+  width: 100%;
+  bottom: 0;
+  opacity: 0.4;
+  left: 0;
+  background-color: var(--main-color);
 }
