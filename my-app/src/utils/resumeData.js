@@ -1,6 +1,7 @@
 import React from "react";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
+import LanguageIcon from "@material-ui/icons/Language";
 export default {
   name: "Yining Chen",
   title: "Full Stack Developer",
@@ -44,6 +45,53 @@ export default {
       title: "Rutgers University",
       date: "01/2017-05/2020",
       decription: "Dual major in Statistics and Labor studies",
+    },
+  ],
+  services: [
+    {
+      title: "Web Development",
+      description: "i have been a web developer for 2 years",
+      icon: <LanguageIcon />,
+    },
+    {
+      title: "Branding Identity",
+      description: "i have been a web developer for 2 years",
+      icon: <LanguageIcon />,
+    },
+    {
+      title: "Web Dev",
+      description: "i have been a web developer for 2 years",
+      icon: <LanguageIcon />,
+    },
+  ],
+
+  skills: [
+    {
+      title: "FRONT-END",
+      destription: ["ReactJS", "JavaScript", "BootStrap", "Material UI"],
+    },
+    {
+      title: "BACK-END",
+      destription: [
+        "Spring boot",
+        "Microservices",
+        "NodeJS",
+        "Express",
+        "Java",
+        "Python",
+      ],
+    },
+    {
+      title: "DATABASES",
+      destription: ["Ms SQL Server", "MySQL", "MongoDB"],
+    },
+    {
+      title: "SOURCE CONTROL",
+      destription: ["GitHub", "Git"],
+    },
+    {
+      title: "DATA ANALYSIS",
+      destription: ["R", "SAS", "MatLab", "Maple"],
     },
   ],
 };
