@@ -89,6 +89,47 @@ export default {
       title: "SOURCE CONTROL",
       destription: ["GitHub", "Git"],
     },
-  
+  ],
+  projects: [
+    {
+      tag: "React",
+      image:
+        "https://en.wikipedia.org/wiki/Image#/media/File:Image_created_with_a_mobile_phone.png",
+      title: "Project 1",
+      caption: "caption",
+      description: "this is my project description",
+    },
+    {
+      tag: "Java",
+      image:
+        "https://en.wikipedia.org/wiki/Image#/media/File:Image_created_with_a_mobile_phone.png",
+      title: "Project 2",
+      caption: "caption",
+      description: "this is my project description",
+    },
+    {
+      tag: "React",
+      image:
+        "https://en.wikipedia.org/wiki/Image#/media/File:Image_created_with_a_mobile_phone.png",
+      title: "Project 3",
+      caption: "caption",
+      description: "this is my project description",
+    },
+    {
+      tag: "Java",
+      image:
+        "https://en.wikipedia.org/wiki/Image#/media/File:Image_created_with_a_mobile_phone.png",
+      title: "Project 4",
+      caption: "caption",
+      description: "this is my project description",
+    },
+    {
+      tag: "React",
+      image:
+        "https://en.wikipedia.org/wiki/Image#/media/File:Image_created_with_a_mobile_phone.png",
+      title: "Project 5",
+      caption: "caption",
+      description: "this is my project description",
+    },
   ],
 };
