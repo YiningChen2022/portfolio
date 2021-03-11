@@ -111,8 +111,7 @@ const Portfolio = () => {
         <img src={projectDialog.image} alt="" className="projectDialog_image" />
         <DialogContent>
           <Typography className="projectDialog_description">
-            {" "}
-            projectDialog.description
+            {projectDialog.description}
           </Typography>
         </DialogContent>
       </Dialog>

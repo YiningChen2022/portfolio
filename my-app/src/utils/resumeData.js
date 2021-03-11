@@ -2,7 +2,10 @@ import React from "react";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LanguageIcon from "@material-ui/icons/Language";
+import emailer from "../assets/images/emailer.png";
+import property from "../assets/images/property.png";
 import db from "../assets/images/db.png";
+import ODP from "../assets/images/ODP.png";
 export default {
   name: "Yining Chen",
   title: "Full Stack Developer",
@@ -22,7 +25,7 @@ export default {
     },
   },
   about:
-    "Creative software developer, a freelance painter with 2+ years of painting and business management experience.\n\n Result- oriented, patient, quick learner, and team player eager to take engineering skills and interpersonal skills into innovative program development.",
+    "I am a creative software developer. My technical expertise includes a strong foundation in a programming language(including Java, Python, and SQL) and advanced knowledge of developer applications, tools, methodologies, and best practices (including OOD, web-development using React, Redux, and Spring MVC).\n\n  I am also a freelance painter with 2+ years of painting and business management experience. With that experience, I can be innovative. I understand how to deal with clients and deliver high-quality products on a timely schedule. I am Result-oriented, patient, quick learner, and team player eager to take engineering skills and interpersonal skills into innovative program development.",
   experiences: [
     {
       title: "Data Engineer",
@@ -96,41 +99,33 @@ export default {
       tag: "DataBase",
       image: db,
       title: "Online Retailing System DataBase",
-      caption: "SQLserver, MySQLWorkBench,MongoDB",
+      caption: "SQLserver, MySQLWorkBench, MongoDB",
       description:
-        "Database Purpose: The purpose of this database is to maintain data used for business managers to purchase goods from vendors or ship directly from inventory; track orders’ shipment information; check inventory value and provide customer services. The database will be used by the system’s admins, executive manager, and business managers. ",
+        "The purpose of this database is to maintain data used for business managers to purchase goods from vendors or ship directly from inventory;  \n\n  track orders’ shipment information; check inventory value and provide customer services. \n\n some other features include	 Triggers, Computed Columns, Table-Level Check Constrains with SQL Server. ",
     },
     {
       tag: "Java",
-      image:
-        "https://en.wikipedia.org/wiki/Image#/media/File:Image_created_with_a_mobile_phone.png",
-      title: "Project 2",
-      caption: "caption",
-      description: "this is my project description",
+      image: property,
+      title: "TeamFolio- Property Management System",
+      caption: "Java,OOD, System Design",
+      description:
+        " Designed an object-oriented system. Developed Engineering system specifications, drawings, and Writing diagrams using tools MYSQLWorkbench or Lucid Chart\n\nProgramed and debugged the system software. Implemented useful features such as conversation dialog, location maps as well as data analysis tools\n\nBuilt, tested, and deploy controlled releases of the user interface",
     },
     {
       tag: "React",
-      image:
-        "https://en.wikipedia.org/wiki/Image#/media/File:Image_created_with_a_mobile_phone.png",
-      title: "Project 3",
-      caption: "caption",
-      description: "this is my project description",
+      image: emailer,
+      title: "Emailer",
+      caption: "React, Redux, Node.js, Express",
+      description:
+        "Handled full-stack development for a web application. Implementation includes sending email surveys to customers and to retrieve feedback.	\n\n  Programed the front-end using React, Redux reducers. Implemented back-end Request handling using Node.js and Express. Managed data with MongoDB. \n\n  Integrated Passport.js, OAuth2.0, Stripe, SendGrid for user authentication and payment.",
     },
     {
-      tag: "Java",
-      image:
-        "https://en.wikipedia.org/wiki/Image#/media/File:Image_created_with_a_mobile_phone.png",
-      title: "Project 4",
-      caption: "caption",
-      description: "this is my project description",
-    },
-    {
-      tag: "React",
-      image:
-        "https://en.wikipedia.org/wiki/Image#/media/File:Image_created_with_a_mobile_phone.png",
-      title: "Project 5",
-      caption: "caption",
-      description: "this is my project description",
+      tag: "Data Science",
+      image: ODP,
+      title: "IBNR Reserves Prediction",
+      caption: "Machine learning, Stochastic Modeling",
+      description:
+        "Forecasted the IBNR reserves efficiently in R. My work automatically Bootstrap 19 types of insurance’s paid loss triangle ten thousand times in under 5 minutes. \n\n Designed and implemented interactive visualizations by processing and analyzing datasets ",
     },
   ],
 };

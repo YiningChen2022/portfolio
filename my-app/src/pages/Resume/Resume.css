@@ -63,10 +63,10 @@
 }
 .skill .skill_description {
   display: flex;
-  align-itmes: center;
+  align-items: center;
   color: #989898 !important;
   font-weight: 400 !important;
-  line-hright: 18px !important;
+  line-height: 18px !important;
 }
 
 .skill .skill_description .timeline_dot {
