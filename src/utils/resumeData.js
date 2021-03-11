@@ -56,7 +56,7 @@ export default {
   services: [
     {
       title: "Web Development",
-      description: "Experienced with React, Redux",
+      description: "Improve the online presence of your business",
       icon: <LanguageIcon />,
     },
     {
