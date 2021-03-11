@@ -6,6 +6,8 @@ import emailer from "../assets/images/emailer.png";
 import property from "../assets/images/property.png";
 import db from "../assets/images/db.png";
 import ODP from "../assets/images/ODP.png";
+import AddToHomeScreenIcon from '@material-ui/icons/AddToHomeScreen';
+import AssignmentIndIcon from '@material-ui/icons/AssignmentInd';
 export default {
   name: "Yining Chen",
   title: "Full Stack Developer",
@@ -54,18 +56,20 @@ export default {
   services: [
     {
       title: "Web Development",
-      description: "i have been a web developer for 2 years",
+      description: "Experienced with React, Redux",
       icon: <LanguageIcon />,
     },
     {
-      title: "Branding Identity",
-      description: "i have been a web developer for 2 years",
-      icon: <LanguageIcon />,
+      title: "Custom software development",
+      description:
+        "Development of custom enterprise software solutions to address the unique needs of your business.",
+      icon: < AssignmentIndIcon />,
     },
     {
-      title: "Web Dev",
-      description: "i have been a web developer for 2 years",
-      icon: <LanguageIcon />,
+      title: "Software product development",
+      description:
+        "Development of SaaS, mobile and desktop applications for marketing and distributing to mass enterprise/consumer users.",
+      icon: <AddToHomeScreenIcon />,
     },
   ],
 
